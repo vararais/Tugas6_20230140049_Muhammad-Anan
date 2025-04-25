@@ -1,0 +1,99 @@
+/* Base styles */
+body {
+    background-color: #f5f5f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  /* Container for content */
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header styles */
+  h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 3rem;
+    color: #2c3e50;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    font-family: 'Lobster Two', cursive;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    color: #2c3e50;
+    padding: 10px 0;
+    border-bottom: 2px solid #3498db;
+    margin-top: 40px;
+    transition: color 0.3s ease;
+  }
+  
+  h2:hover {
+    color: #3498db;
+  }
+  
+  /* Navigation and list styles */
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 30px 0;
+  }
+  
+  li {
+    margin-bottom: 50px;
+  }
+  
+  /* Media element styles */
+  video, audio {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Image styles */
+  picture img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  picture img:hover {
+    transform: scale(1.02);
+  }
+  
+  /* Horizontal rule styling */
+  hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(52, 152, 219, 0.75), rgba(0, 0, 0, 0));
+    margin: 15px 0;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    body {
+      padding: 10px;
+    }
+    
+    h1 {
+      font-size: 2.5rem;
+    }
+    
+    h2 {
+      font-size: 1.5rem;
+    }
+  }
